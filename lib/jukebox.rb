@@ -30,7 +30,7 @@ def play(songs)
   else
     output = "Invalid input, please try again"
   end
-  puts output
+  puts "Playing #{output}"
 end
 
 def list(songs)
