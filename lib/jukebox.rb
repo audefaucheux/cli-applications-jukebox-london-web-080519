@@ -50,7 +50,7 @@ def run
   puts "Please enter a command:"
   command = gets.chomp
 
-  if run == "exit"
+  if command == "exit"
     exit_jukebox
   end
 
