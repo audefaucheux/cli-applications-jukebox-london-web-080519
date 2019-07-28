@@ -23,11 +23,12 @@ def play(songs)
   input = gets.chomp
   output = 0
 
-  if input <= songs.length.to_s
+  if input.to_i <= songs.length && input.to_i != 0
     output = songs[input.to_i - 1]
   elsif songs.any?(input)
     output = input
-  else return output = "Invalid input, please try again"
+  else
+    output = "Invalid input, please try again"
   end
   puts output
 end
