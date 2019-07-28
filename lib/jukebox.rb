@@ -46,5 +46,5 @@ end
 #----------
 
 def run
-
+  help
 end
